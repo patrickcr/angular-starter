@@ -4,8 +4,8 @@ module.exports = function(config) {
   config.set({
     basePath: '',
     frameworks: [ 'jasmine' ],
-    files: [ { pattern: 'spec-bundle.js', watched: false } ],
-    preprocessors: { 'spec-bundle.js': ['webpack', 'sourcemap'] },
+    files: [ { pattern: 'spec.bundle.js', watched: false } ],
+    preprocessors: { 'spec.bundle.js': ['webpack', 'sourcemap'] },
     webpack: webpackConfig,
     webpackServer: { noInfo:false },
     reporters: [ 'spec' ],

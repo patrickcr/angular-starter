@@ -1,5 +1,9 @@
 {
+  "ambientDependencies": {
+    "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#4b36b94d5910aa8a4d20bdcd5bd1f9ae6ad18d3c"
+  },
   "globalDependencies": {
+  	"es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654",
     "core-js": "registry:dt/core-js#0.0.0+20160725163759"
   }
 }
